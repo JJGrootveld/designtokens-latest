@@ -1,0 +1,92 @@
+name: Split Design Tokens
+
+on:
+  push:
+    paths:
+      - 'tokens.json'  # Adjust this path to match where your tokens.json is located
+    branches:
+      - main  # Adjust to your default branch name
+
+jobs:
+  split-tokens:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Split tokens into separate files
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          from pathlib import Path
+          
+          # Read the main tokens file
+          with open('tokens.json', 'r', encoding='utf-8') as f:
+              tokens = json.load(f)
+          
+          # Create output directory for split tokens
+          output_dir = Path('tokens')
+          output_dir.mkdir(exist_ok=True)
+          
+          # Track created files
+          created_files = []
+          
+          # Split tokens by top-level keys (token sets)
+          for token_set_name, token_set_data in tokens.items():
+              # Skip metadata and themes as they might need special handling
+              if token_set_name in ['$metadata', '$themes']:
+                  continue
+              
+              # Create filepath preserving the folder structure
+              # e.g., "components/button" → "tokens/components/button.json"
+              filepath = output_dir / f"{token_set_name}.json"
+              
+              # Create parent directories if they don't exist
+              filepath.parent.mkdir(parents=True, exist_ok=True)
+              
+              # Write individual token set to file
+              with open(filepath, 'w', encoding='utf-8') as f:
+                  json.dump({token_set_name: token_set_data}, f, indent=2, ensure_ascii=False)
+              
+              created_files.append(str(filepath))
+              print(f"Created: {filepath}")
+          
+          # Optionally, create a metadata file with $metadata and $themes
+          metadata = {}
+          if '$metadata' in tokens:
+              metadata['$metadata'] = tokens['$metadata']
+          if '$themes' in tokens:
+              metadata['$themes'] = tokens['$themes']
+          
+          if metadata:
+              metadata_path = output_dir / '_metadata.json'
+              with open(metadata_path, 'w', encoding='utf-8') as f:
+                  json.dump(metadata, f, indent=2, ensure_ascii=False)
+              created_files.append(str(metadata_path))
+              print(f"Created: {metadata_path}")
+          
+          print(f"\nTotal files created: {len(created_files)}")
+          EOF
+      
+      - name: Commit and push split tokens
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add tokens/
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: split tokens into separate files [skip ci]"
+            git push
+          fi
