@@ -1,0 +1,34 @@
+{
+  "components/ordered-list": {
+    "utrecht": {
+      "ordered-list": {
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{basis.text.line-height-X.md}"
+        },
+        "padding-inline-start": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.3xl}"
+        },
+        "item": {
+          "margin-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.sm}"
+          },
+          "margin-block-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.sm}"
+          },
+          "padding-inline-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.inline.md}"
+          }
+        }
+      }
+    }
+  }
+}

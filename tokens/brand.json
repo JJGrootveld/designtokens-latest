@@ -1,0 +1,434 @@
+{
+  "brand": {
+    "kvk": {
+      "space": {
+        "0": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "1": {
+          "$type": "dimension",
+          "$value": "0.25rem"
+        },
+        "2": {
+          "$type": "dimension",
+          "$value": "0.5rem"
+        },
+        "3": {
+          "$type": "dimension",
+          "$value": "0.75rem"
+        },
+        "4": {
+          "$type": "dimension",
+          "$value": "1rem"
+        },
+        "5": {
+          "$type": "dimension",
+          "$value": "1.25rem"
+        },
+        "6": {
+          "$type": "dimension",
+          "$value": "1.5rem"
+        },
+        "7": {
+          "$type": "dimension",
+          "$value": "1.75rem"
+        },
+        "8": {
+          "$type": "dimension",
+          "$value": "2rem"
+        },
+        "9": {
+          "$type": "dimension",
+          "$value": "2.25rem"
+        },
+        "10": {
+          "$type": "dimension",
+          "$value": "2.5rem"
+        },
+        "11": {
+          "$type": "dimension",
+          "$value": "2.75rem"
+        },
+        "12": {
+          "$type": "dimension",
+          "$value": "3rem"
+        },
+        "14": {
+          "$type": "dimension",
+          "$value": "3.5rem"
+        },
+        "16": {
+          "$type": "dimension",
+          "$value": "4rem"
+        },
+        "17": {
+          "$type": "dimension",
+          "$value": "4.25rem"
+        },
+        "18": {
+          "$type": "dimension",
+          "$value": "4.5rem"
+        },
+        "20": {
+          "$type": "dimension",
+          "$value": "5rem"
+        },
+        "25": {
+          "$type": "dimension",
+          "$value": "6.25rem"
+        }
+      },
+      "color": {
+        "purple": {
+          "10": {
+            "$type": "color",
+            "$value": "#883370"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#6f2a5b"
+          },
+          "base": {
+            "$type": "color",
+            "$value": "#aa418c"
+          },
+          "-70": {
+            "$type": "color",
+            "$value": "#d9c8d9"
+          },
+          "-90": {
+            "$type": "color",
+            "$value": "#f4edf4"
+          }
+        },
+        "petrol": {
+          "10": {
+            "$type": "color",
+            "$value": "#003f54"
+          },
+          "base": {
+            "$type": "color",
+            "$value": "#00526e"
+          }
+        },
+        "orange": {
+          "base": {
+            "$type": "color",
+            "$value": "#ff9300"
+          }
+        },
+        "turquoise": {
+          "10": {
+            "$type": "color",
+            "$value": "#2f6b80"
+          },
+          "base": {
+            "$type": "color",
+            "$value": "#377f95"
+          },
+          "-10": {
+            "$type": "color",
+            "$value": "#5593A5"
+          },
+          "-90": {
+            "$type": "color",
+            "$value": "#e6f2f5"
+          }
+        },
+        "blue": {
+          "10": {
+            "$type": "color",
+            "$value": "#00579c"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#004382"
+          },
+          "base": {
+            "$type": "color",
+            "$value": "#0070b9"
+          }
+        },
+        "grayscale": {
+          "10": {
+            "$type": "color",
+            "$value": "#efefef"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#d9d9d9"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#bebebe"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#949494"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#757575"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#343434"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        },
+        "red": {
+          "base": {
+            "$type": "color",
+            "$value": "#bc3f38"
+          }
+        },
+        "green": {
+          "base": {
+            "$type": "color",
+            "$value": "#2d7c31"
+          }
+        },
+        "amber": {
+          "base": {
+            "$type": "color",
+            "$value": "#f56600"
+          }
+        },
+        "seagreen": {
+          "base": {
+            "$type": "color",
+            "$value": "#00a694"
+          }
+        }
+      },
+      "gradient": {
+        "base": {
+          "$type": "color",
+          "$value": "linear-gradient(90deg, {kvk.color.purple.base}, {kvk.color.orange.base})"
+        }
+      },
+      "typography": {
+        "font-weight": {
+          "light": {
+            "$type": "fontWeights",
+            "$value": "300"
+          },
+          "regular": {
+            "$type": "fontWeights",
+            "$value": "400"
+          },
+          "medium": {
+            "$type": "fontWeights",
+            "$value": "500"
+          },
+          "semibold": {
+            "$type": "fontWeights",
+            "$value": "600"
+          },
+          "bold": {
+            "$type": "fontWeights",
+            "$value": "700"
+          }
+        },
+        "line-height": {
+          "8-xl": {
+            "$type": "lineHeights",
+            "$value": "56px"
+          },
+          "7-xl": {
+            "$type": "lineHeights",
+            "$value": "48px"
+          },
+          "6-xl": {
+            "$type": "lineHeights",
+            "$value": "36px"
+          },
+          "5-xl": {
+            "$type": "lineHeights",
+            "$value": "34px"
+          },
+          "4-xl": {
+            "$type": "lineHeights",
+            "$value": "32px"
+          },
+          "3-xl": {
+            "$type": "lineHeights",
+            "$value": "30px"
+          },
+          "2-xl": {
+            "$type": "lineHeights",
+            "$value": "28px"
+          },
+          "xl": {
+            "$type": "lineHeights",
+            "$value": "26px"
+          },
+          "l": {
+            "$type": "lineHeights",
+            "$value": "24px"
+          },
+          "base": {
+            "$type": "lineHeights",
+            "$value": "22px"
+          },
+          "s": {
+            "$type": "lineHeights",
+            "$value": "20px"
+          }
+        },
+        "font-family": {
+          "primary": {
+            "$type": "fontFamilies",
+            "$value": "Roboto"
+          },
+          "secondary": {
+            "$type": "fontFamilies",
+            "$value": "Ciutadella Rounded"
+          }
+        },
+        "font-size": {
+          "9-xl": {
+            "$type": "fontSizes",
+            "$value": "48px"
+          },
+          "8-xl": {
+            "$type": "fontSizes",
+            "$value": "40px"
+          },
+          "7-xl": {
+            "$type": "fontSizes",
+            "$value": "32px"
+          },
+          "6-xl": {
+            "$type": "fontSizes",
+            "$value": "28px"
+          },
+          "5-xl": {
+            "$type": "fontSizes",
+            "$value": "26px"
+          },
+          "4-xl": {
+            "$type": "fontSizes",
+            "$value": "24px"
+          },
+          "3-xl": {
+            "$type": "fontSizes",
+            "$value": "22px"
+          },
+          "2-xl": {
+            "$type": "fontSizes",
+            "$value": "20px"
+          },
+          "xl": {
+            "$type": "fontSizes",
+            "$value": "19px"
+          },
+          "l": {
+            "$type": "fontSizes",
+            "$value": "18px"
+          },
+          "base": {
+            "$type": "fontSizes",
+            "$value": "16px"
+          },
+          "s": {
+            "$type": "fontSizes",
+            "$value": "14px"
+          },
+          "xs": {
+            "$type": "fontSizes",
+            "$value": "12px"
+          }
+        },
+        "letter-spacing": {
+          "$type": "letterSpacing",
+          "$value": "0.04px"
+        }
+      },
+      "size": {
+        "16": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "20": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "24": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "32": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "40": {
+          "$type": "dimension",
+          "$value": "40px"
+        },
+        "48": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "64": {
+          "$type": "dimension",
+          "$value": "64px"
+        }
+      },
+      "box-shadow": {
+        "dp01": {
+          "$type": "boxShadow",
+          "$value": [
+            {
+              "x": "0",
+              "y": "4px",
+              "blur": "6px",
+              "spread": "0",
+              "color": "rgba(190,190,190,0.33)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "1px",
+              "blur": "3px",
+              "spread": "0",
+              "color": "rgba(190,190,190,0.33)",
+              "type": "dropShadow"
+            }
+          ]
+        },
+        "dp02": {
+          "$type": "boxShadow",
+          "$value": [
+            {
+              "x": "0",
+              "y": "7px",
+              "blur": "14px",
+              "spread": "0",
+              "color": "rgba(190,190,190,0.33)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "3px",
+              "blur": "6px",
+              "spread": "0",
+              "color": "rgba(190,190,190,0.33)",
+              "type": "dropShadow"
+            }
+          ]
+        }
+      },
+      "border-radius": {
+        "base": {
+          "$type": "dimension",
+          "$value": "4px"
+        }
+      }
+    }
+  }
+}

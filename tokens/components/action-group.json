@@ -1,0 +1,28 @@
+{
+  "components/action-group": {
+    "utrecht": {
+      "button-group": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.transparent}"
+        },
+        "column-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.column.md}"
+        },
+        "padding-block-end": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "padding-block-start": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "row-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.row.md}"
+        }
+      }
+    }
+  }
+}

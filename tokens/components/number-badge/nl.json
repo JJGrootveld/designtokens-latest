@@ -1,0 +1,56 @@
+{
+  "components/number-badge/nl": {
+    "nl": {
+      "number-badge": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.default.bg-default}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{basis.color.transparent}"
+        },
+        "border-radius": {
+          "$type": "dimension",
+          "$value": "{basis.border-radius.round}"
+        },
+        "border-width": {
+          "$type": "dimension",
+          "$value": "{basis.border-width.sm}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default.color-default}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{basis.text.font-family.default}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{basis.text.font-weight.bold}"
+        },
+        "min-block-size": {
+          "$type": "dimension",
+          "$value": "{basis.size.xs}"
+        },
+        "min-inline-size": {
+          "$type": "dimension",
+          "$value": "{basis.size.xs}"
+        },
+        "padding-block": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.sm}"
+        },
+        "padding-inline": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.sm}"
+        }
+      }
+    }
+  }
+}

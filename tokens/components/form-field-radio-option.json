@@ -1,0 +1,12 @@
+{
+  "components/form-field-radio-option": {
+    "todo": {
+      "form-field-radio-option": {
+        "column-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.column.md}"
+        }
+      }
+    }
+  }
+}

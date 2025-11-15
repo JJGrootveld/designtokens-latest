@@ -1,0 +1,38 @@
+{
+  "components/page-footer": {
+    "utrecht": {
+      "page-footer": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.accent-1.bg-default}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default.color-document}"
+        },
+        "padding-inline": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "content": {
+          "max-inline-size": {
+            "$type": "dimension",
+            "$value": "{basis.page.max-inline-size}"
+          },
+          "padding-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.4xl}"
+          },
+          "padding-block-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.4xl}"
+          },
+          "padding-inline": {
+            "$type": "dimension",
+            "$value": "{basis.space.inline.4xl}"
+          }
+        }
+      }
+    }
+  }
+}

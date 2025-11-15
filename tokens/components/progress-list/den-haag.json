@@ -1,0 +1,238 @@
+{
+  "components/progress-list/den-haag": {
+    "denhaag": {
+      "process-steps": {
+        "font-familiy": {
+          "$type": "fontFamilies",
+          "$value": "{basis.text.font-family.default}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{basis.text.line-height-X.md}"
+        },
+        "step-description": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.color-subtle}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{basis.text.font-size-X.md}"
+          }
+        },
+        "step-header": {
+          "align-items": {
+            "$type": "other",
+            "$value": "center"
+          }
+        },
+        "step-heading": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.color-document}"
+          },
+          "font-familiy": {
+            "$type": "fontFamilies",
+            "$value": "{basis.text.font-family.default}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{basis.text.font-size-X.lg}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{basis.text.font-weight.bold}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{basis.text.line-height-X.lg}"
+          },
+          "checked": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.default.color-document}"
+            }
+          },
+          "current": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.default.color-document}"
+            }
+          },
+          "not-checked": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.disabled.color-document}"
+            }
+          },
+          "warning": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.default.color-document}"
+            }
+          }
+        },
+        "step-line": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.border-default}"
+          },
+          "stroke-width": {
+            "$type": "dimension",
+            "$value": "{basis.border-width.sm}"
+          },
+          "checked": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.positive.border-default}"
+            }
+          },
+          "warning": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.warning.border-default}"
+            }
+          }
+        },
+        "step-marker": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.default.bg-document}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{basis.color.default.border-default}"
+          },
+          "border-width": {
+            "$type": "dimension",
+            "$value": "{basis.border-width.md}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.color-document}"
+          },
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{basis.text.font-family.default}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{basis.text.font-weight.bold}"
+          },
+          "checked": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{basis.color.positive-inverse.bg-default}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{basis.color.transparent}"
+            },
+            "border-width": {
+              "$type": "dimension",
+              "$value": "{basis.border-width.md}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.positive-inverse.color-default}"
+            }
+          },
+          "current": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{basis.color.default-inverse.bg-default}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{basis.color.transparent}"
+            },
+            "border-width": {
+              "$type": "dimension",
+              "$value": "{basis.border-width.md}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.default-inverse.color-default}"
+            }
+          },
+          "warning": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{basis.color.warning-inverse.bg-default}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{basis.color.transparent}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.warning-inverse.color-default}"
+            }
+          }
+        },
+        "step-metaddata": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.color-subtle}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{basis.text.font-size-X.md}"
+          }
+        },
+        "sub-step-heading": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.color-document}"
+          },
+          "font-familiy": {
+            "$type": "fontFamilies",
+            "$value": "{basis.text.font-family.default}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{basis.text.font-size-X.md}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{basis.text.font-weight.bold}"
+          }
+        },
+        "sub-step-marker": {
+          "border-color": {
+            "$type": "color",
+            "$value": "{basis.color.default.border-default}"
+          },
+          "checked": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{basis.color.positive.border-default}"
+            }
+          },
+          "current": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{basis.color.default.border-default}"
+            }
+          },
+          "not-checked": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{basis.color.disabled.border-default}"
+            }
+          },
+          "warning": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{basis.color.warning.border-default}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

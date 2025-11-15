@@ -1,0 +1,89 @@
+{
+  "components/link/utrecht": {
+    "utrecht": {
+      "link": {
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.action-2.color-default}"
+        },
+        "column-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.text.xs}"
+        },
+        "text-decoration": {
+          "$type": "textDecoration",
+          "$value": "underline"
+        },
+        "text-decoration-color": {
+          "$type": "color",
+          "$value": "{basis.color.action-2.color-default}",
+          "$description": "[code-only]"
+        },
+        "text-decoration-thickness": {
+          "$type": "other",
+          "$value": "auto",
+          "$description": "[code-only]"
+        },
+        "text-underline-offset": {
+          "$type": "other",
+          "$value": "auto",
+          "$description": "[code-only]"
+        },
+        "icon": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{basis.size.icon.md}"
+          }
+        },
+        "active": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.color-active}"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.focus.background-color}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.focus.color}"
+          }
+        },
+        "focus-visible": {
+          "text-decoration": {
+            "$type": "textDecoration",
+            "$value": "None"
+          },
+          "text-decoration-thickness": {
+            "$type": "other",
+            "$value": "auto",
+            "$description": "[code-only]"
+          }
+        },
+        "hover": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.color-hover}"
+          },
+          "text-decoration": {
+            "$type": "textDecoration",
+            "$value": "None"
+          },
+          "text-decoration-thickness": {
+            "$type": "other",
+            "$value": "auto",
+            "$description": "[code-only]"
+          }
+        },
+        "visited": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.color-default}"
+          }
+        }
+      }
+    }
+  }
+}

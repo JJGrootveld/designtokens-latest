@@ -1,0 +1,24 @@
+{
+  "components/form-field-description": {
+    "utrecht": {
+      "form-field-description": {
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default.color-subtle}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{basis.text.font-family.default}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{basis.text.line-height-X.md}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "components/task-list": {
+    "todo": {
+      "task-list": {
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default.color-document}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{basis.text.font-family.default}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{basis.text.font-weight.default}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{basis.text.line-height-X.md}"
+        },
+        "row-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.row.xl}"
+        },
+        "item": {
+          "column-gap": {
+            "$type": "dimension",
+            "$value": "{basis.space.column.lg}"
+          },
+          "margin-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.sm}"
+          },
+          "margin-block-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.sm}"
+          }
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.positive.color-default}"
+          },
+          "size": {
+            "$type": "dimension",
+            "$value": "{basis.size.icon.md}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "components/skip-link/nl": {
+    "nl": {
+      "skip-link": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.focus.background-color}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.focus.color}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{basis.text.line-height-X.md}"
+        },
+        "padding-block": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.lg}"
+        },
+        "padding-inline": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.xl}"
+        },
+        "min-block-size": {
+          "$type": "dimension",
+          "$value": "{basis.pointer-target.min-block-size}"
+        },
+        "min-inline-size": {
+          "$type": "dimension",
+          "$value": "{basis.pointer-target.min-inline-size}"
+        },
+        "text-decoration-thickness": {
+          "$type": "other",
+          "$value": "1px",
+          "$description": "[code-only]"
+        },
+        "text-underline-offset": {
+          "$type": "other",
+          "$value": "1px",
+          "$description": "[code-only]"
+        }
+      }
+    }
+  }
+}

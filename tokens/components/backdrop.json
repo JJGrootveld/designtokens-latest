@@ -1,0 +1,39 @@
+{
+  "components/backdrop": {
+    "utrecht": {
+      "backdrop": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.default-inverse.bg-document}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default-inverse.color-document}"
+        },
+        "opacity": {
+          "$type": "opacity",
+          "$value": "0.2"
+        },
+        "z-index": {
+          "$type": "other",
+          "$value": "auto",
+          "$description": "[code-only]"
+        },
+        "fade-in": {
+          "animation-duration": {
+            "$type": "other",
+            "$value": "0.4s",
+            "$description": "[code-only]"
+          }
+        },
+        "reduced-transparency": {
+          "opacity": {
+            "$type": "opacity",
+            "$value": "0.98",
+            "$description": "[code-only]"
+          }
+        }
+      }
+    }
+  }
+}

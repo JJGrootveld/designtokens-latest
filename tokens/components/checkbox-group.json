@@ -1,0 +1,20 @@
+{
+  "components/checkbox-group": {
+    "todo": {
+      "checkbox-group": {
+        "padding-block-end": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.md}"
+        },
+        "padding-block-start": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.md}"
+        },
+        "row-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.row.xl}"
+        }
+      }
+    }
+  }
+}

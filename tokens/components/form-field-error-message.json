@@ -1,0 +1,62 @@
+{
+  "components/form-field-error-message": {
+    "utrecht": {
+      "form-field-error-message": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.transparent}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.negative.color-default}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{basis.text.font-family.default}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{basis.text.font-weight.default}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{basis.text.line-height-X.md}"
+        },
+        "padding-block-end": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "padding-block-start": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "padding-inline-end": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "padding-inline-start": {
+          "$type": "dimension",
+          "$value": "0px"
+        }
+      }
+    },
+    "todo": {
+      "form-field-error-message": {
+        "icon": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{basis.size.icon.md}"
+          }
+        },
+        "column-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.text.md}"
+        }
+      }
+    }
+  }
+}

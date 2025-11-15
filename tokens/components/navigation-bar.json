@@ -1,0 +1,40 @@
+{
+  "components/navigation-bar": {
+    "utrecht": {
+      "nav-bar": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.default.bg-subtle}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default.color-document}"
+        },
+        "content": {
+          "max-inline-size": {
+            "$type": "dimension",
+            "$value": "1184px"
+          }
+        },
+        "link": {
+          "padding-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.md}"
+          },
+          "padding-block-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.md}"
+          },
+          "padding-inline-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.inline.xl}"
+          },
+          "padding-inline-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.inline.xl}"
+          }
+        }
+      }
+    }
+  }
+}

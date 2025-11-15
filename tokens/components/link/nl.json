@@ -1,0 +1,70 @@
+{
+  "components/link/nl": {
+    "nl": {
+      "link": {
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.action-2.color-default}",
+          "$description": "[code-only]"
+        },
+        "text-decoration-color": {
+          "$type": "color",
+          "$value": "{basis.color.action-2.color-default}"
+        },
+        "text-decoration-line": {
+          "$type": "textDecoration",
+          "$value": "underline"
+        },
+        "text-decoration-thickness": {
+          "$type": "other",
+          "$value": "auto",
+          "$description": "[code-only]"
+        },
+        "text-underline-offset": {
+          "$type": "other",
+          "$value": "auto",
+          "$description": "[code-only]"
+        },
+        "active": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.color-active}"
+          }
+        },
+        "current": {
+          "cursor": {
+            "$type": "other",
+            "$value": "default",
+            "$description": "[code-only]"
+          }
+        },
+        "disabled": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.disabled.color-subtle}"
+          },
+          "cursor": {
+            "$type": "other",
+            "$value": "disabled",
+            "$description": "[code-only]"
+          }
+        },
+        "hover": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.color-hover}"
+          },
+          "text-decoration-line": {
+            "$type": "textDecoration",
+            "$value": "None"
+          },
+          "text-decoration-thickness": {
+            "$type": "other",
+            "$value": "auto",
+            "$description": "[code-only]"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "components/skip-link/utrecht": {
+    "utrecht": {
+      "skip-link": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.default-inverse.bg-document}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default-inverse.color-document}"
+        },
+        "min-block-size": {
+          "$type": "dimension",
+          "$value": "{basis.pointer-target.min-block-size}"
+        },
+        "min-inline-size": {
+          "$type": "dimension",
+          "$value": "{basis.pointer-target.min-inline-size}"
+        },
+        "padding-block-end": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.lg}"
+        },
+        "padding-block-start": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.lg}"
+        },
+        "padding-inline-end": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.xl}"
+        },
+        "padding-inline-start": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.xl}"
+        },
+        "text-decoration": {
+          "$type": "textDecoration",
+          "$value": "underline"
+        },
+        "focus": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.focus.background-color}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.focus.color}"
+          }
+        },
+        "focus-visible": {
+          "text-decoration": {
+            "$type": "textDecoration",
+            "$value": "None"
+          }
+        }
+      }
+    },
+    "todo": {
+      "skip-link": {
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{basis.text.font-weight.bold}"
+        }
+      }
+    }
+  }
+}

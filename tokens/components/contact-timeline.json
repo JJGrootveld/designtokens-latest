@@ -1,0 +1,162 @@
+{
+  "components/contact-timeline": {
+    "denhaag": {
+      "contact-timeline": {
+        "step": {
+          "distance": {
+            "$type": "dimension",
+            "$value": "0px"
+          },
+          "padding-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.4xl}"
+          }
+        },
+        "step-details": {
+          "desktop": {
+            "margin-inline-start": {
+              "$type": "dimension",
+              "$value": "240px"
+            }
+          },
+          "mobile": {
+            "margin-inline-start": {
+              "$type": "dimension",
+              "$value": "{basis.space.inline.4xl}"
+            }
+          },
+          "file": {
+            "margin-block-end": {
+              "$type": "dimension",
+              "$value": "{basis.space.block.3xl}"
+            },
+            "margin-block-start": {
+              "$type": "dimension",
+              "$value": "{basis.space.block.3xl}"
+            },
+            "mobile": {
+              "margin-block-end": {
+                "$type": "dimension",
+                "$value": "{basis.space.block.4xl}"
+              }
+            }
+          },
+          "sender": {
+            "font-size": {
+              "$type": "fontSizes",
+              "$value": "{basis.text.font-size-X.md}"
+            },
+            "font-weight": {
+              "$type": "fontWeights",
+              "$value": "{basis.text.font-weight.bold}"
+            },
+            "margin-block-start": {
+              "$type": "dimension",
+              "$value": "{basis.space.block.xl}"
+            }
+          }
+        },
+        "step-header": {
+          "channel": {
+            "width": {
+              "$type": "dimension",
+              "$value": "80px"
+            }
+          },
+          "date": {
+            "width": {
+              "$type": "dimension",
+              "$value": "96px"
+            }
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{basis.text.font-size-X.md}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{basis.text.line-height-X.md}"
+          },
+          "toggle": {
+            "active": {
+              "color": {
+                "$type": "color",
+                "$value": "{basis.color.action-2.color-active}"
+              }
+            },
+            "focus": {
+              "color": {
+                "$type": "color",
+                "$value": "{basis.focus.color}"
+              }
+            },
+            "gap": {
+              "$type": "dimension",
+              "$value": "{basis.space.text.xs}"
+            },
+            "hover": {
+              "color": {
+                "$type": "color",
+                "$value": "{basis.color.action-2.color-hover}"
+              }
+            }
+          }
+        },
+        "step-marker": {
+          "align-items": {
+            "$type": "other",
+            "$value": "flex-start"
+          },
+          "connector": {
+            "bottom": {
+              "$type": "dimension",
+              "$value": "0px"
+            },
+            "desktop": {
+              "margin-inline-start": {
+                "$type": "dimension",
+                "$value": "112px"
+              }
+            },
+            "mobile": {
+              "margin-inline-start": {
+                "$type": "dimension",
+                "$value": "0px"
+              }
+            }
+          }
+        },
+        "step-meta": {
+          "gap": {
+            "$type": "dimension",
+            "$value": "{basis.space.text.md}"
+          },
+          "marker": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.default.color-document}"
+            },
+            "size": {
+              "$type": "dimension",
+              "$value": "{basis.size.4xs}"
+            }
+          }
+        }
+      }
+    },
+    "todo": {
+      "contact-timeline": {
+        "step-header": {
+          "toggle": {
+            "focus-visible": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{basis.focus.background-color}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

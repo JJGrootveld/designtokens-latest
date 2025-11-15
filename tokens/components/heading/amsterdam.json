@@ -1,0 +1,86 @@
+{
+  "components/heading/amsterdam": {
+    "ams": {
+      "heading": {
+        "color": {
+          "$type": "color",
+          "$value": "{basis.heading.color}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{basis.heading.font-family}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{basis.heading.font-weight}"
+        },
+        "inverse-color": {
+          "$type": "color",
+          "$value": "{basis.color.default-inverse.color-document}"
+        },
+        "level": {
+          "1": {
+            "font-size": {
+              "$type": "fontSizes",
+              "$value": "{basis.text.font-size-X.3xl}"
+            },
+            "line-height": {
+              "$type": "lineHeights",
+              "$value": "{basis.text.line-height-X.3xl}"
+            }
+          },
+          "2": {
+            "font-size": {
+              "$type": "fontSizes",
+              "$value": "{basis.text.font-size-X.2xl}"
+            },
+            "line-height": {
+              "$type": "lineHeights",
+              "$value": "{basis.text.line-height-X.2xl}"
+            }
+          },
+          "3": {
+            "font-size": {
+              "$type": "fontSizes",
+              "$value": "{basis.text.font-size-X.xl}"
+            },
+            "line-height": {
+              "$type": "lineHeights",
+              "$value": "{basis.text.line-height-X.xl}"
+            }
+          },
+          "4": {
+            "font-size": {
+              "$type": "fontSizes",
+              "$value": "{basis.text.font-size-X.lg}"
+            },
+            "line-height": {
+              "$type": "lineHeights",
+              "$value": "{basis.text.line-height-X.lg}"
+            }
+          },
+          "5": {
+            "font-size": {
+              "$type": "fontSizes",
+              "$value": "{basis.text.font-size-X.md}"
+            },
+            "line-height": {
+              "$type": "lineHeights",
+              "$value": "{basis.text.line-height-X.md}"
+            }
+          },
+          "6": {
+            "font-size": {
+              "$type": "fontSizes",
+              "$value": "{basis.text.font-size-X.sm}"
+            },
+            "line-height": {
+              "$type": "lineHeights",
+              "$value": "{basis.text.line-height-X.sm}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

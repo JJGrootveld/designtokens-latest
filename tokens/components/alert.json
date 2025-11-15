@@ -1,0 +1,154 @@
+{
+  "components/alert": {
+    "utrecht": {
+      "alert": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.info.bg-default}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{basis.color.info.border-default}"
+        },
+        "border-radius": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "border-width": {
+          "$type": "dimension",
+          "$value": "{basis.border-width.md}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.info.color-document}"
+        },
+        "column-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.column.md}"
+        },
+        "padding-block-end": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.2xl}"
+        },
+        "padding-block-start": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.xl}"
+        },
+        "padding-inline-end": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.xl}"
+        },
+        "padding-inline-start": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.xl}"
+        },
+        "content": {
+          "row-gap": {
+            "$type": "dimension",
+            "$value": "{basis.space.row.xl}"
+          }
+        },
+        "icon": {
+          "inset-block-start": {
+            "$type": "dimension",
+            "$value": "0px"
+          },
+          "size": {
+            "$type": "dimension",
+            "$value": "{basis.size.icon.xl}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.info.color-default}"
+          },
+          "info": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.info.color-default}"
+            }
+          },
+          "error": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.negative.color-default}"
+            }
+          },
+          "ok": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.positive.color-default}"
+            }
+          },
+          "warning": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.warning.color-default}"
+            }
+          }
+        },
+        "message": {
+          "row-gap": {
+            "$type": "dimension",
+            "$value": "{basis.space.row.md}"
+          }
+        },
+        "info": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.info.bg-default}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{basis.color.info.border-default}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.info.color-document}"
+          }
+        },
+        "error": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.negative.bg-default}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{basis.color.negative.border-default}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.negative.color-document}"
+          }
+        },
+        "ok": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.positive.bg-default}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{basis.color.positive.border-default}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.positive.color-document}"
+          }
+        },
+        "warning": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.warning.bg-default}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{basis.color.warning.border-default}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.warning.color-document}"
+          }
+        }
+      }
+    }
+  }
+}

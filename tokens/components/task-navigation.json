@@ -1,0 +1,44 @@
+{
+  "components/task-navigation": {
+    "denhaag": {
+      "action": {
+        "single": {
+          "padding-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.lg}"
+          },
+          "padding-block-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.lg}"
+          },
+          "padding-inline-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.inline.xl}"
+          },
+          "padding-inline-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.inline.xl}"
+          },
+          "hover": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{basis.color.default.bg-hover}"
+            }
+          },
+          "details": {
+            "gap": {
+              "$type": "dimension",
+              "$value": "{basis.space.row.md}"
+            },
+            "lg": {
+              "gap": {
+                "$type": "dimension",
+                "$value": "{basis.space.row.md}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

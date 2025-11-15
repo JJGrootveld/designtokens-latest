@@ -1,0 +1,12 @@
+{
+  "components/article": {
+    "utrecht": {
+      "article": {
+        "max-inline-size": {
+          "$type": "dimension",
+          "$value": "750px"
+        }
+      }
+    }
+  }
+}

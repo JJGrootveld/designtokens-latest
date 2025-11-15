@@ -1,0 +1,12 @@
+{
+  "components/form-field-checkbox-option": {
+    "todo": {
+      "form-field-checkbox-option": {
+        "column-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.column.md}"
+        }
+      }
+    }
+  }
+}

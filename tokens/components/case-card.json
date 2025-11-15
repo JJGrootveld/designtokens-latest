@@ -1,0 +1,172 @@
+{
+  "components/case-card": {
+    "todo": {
+      "case-card": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.action-2.bg-default}"
+        },
+        "border-radius": {
+          "$type": "dimension",
+          "$value": "{basis.border-radius.sm}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default.color-document}"
+        },
+        "min-block-size": {
+          "$type": "dimension",
+          "$value": "192px"
+        },
+        "min-inline-size": {
+          "$type": "dimension",
+          "$value": "328px"
+        },
+        "padding-block": {
+          "$type": "dimension",
+          "$value": "{basis.space.block.2xl}"
+        },
+        "padding-inline": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.3xl}"
+        },
+        "row-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.row.lg}"
+        },
+        "heading": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.heading.color}"
+          },
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{basis.heading.font-family}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{basis.text.font-size-X.xl}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{basis.heading.font-weight}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{basis.text.line-height-X.xl}"
+          },
+          "read-only": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.heading.color}"
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.color-default}"
+          },
+          "size": {
+            "$type": "dimension",
+            "$value": "{basis.size.icon.md}"
+          }
+        },
+        "active": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.bg-active}"
+          }
+        },
+        "focus-visible": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.focus.background-color}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.focus.color}"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.bg-hover}"
+          }
+        },
+        "read-only": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{basis.color.default.bg-default}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.color-document}"
+          },
+          "active": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{basis.color.default.bg-active}"
+            }
+          },
+          "hover": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{basis.color.default.bg-hover}"
+            }
+          }
+        },
+        "decoration": {
+          "folder": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{basis.color.action-2.bg-active}"
+            },
+            "active": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{basis.color.action-2.bg-active}"
+              }
+            },
+            "hover": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{basis.color.action-2.bg-active}"
+              }
+            },
+            "focus-visible": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{basis.focus.background-color}"
+              }
+            },
+            "read-only": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{basis.color.default.bg-active}"
+              },
+              "active": {
+                "background-color": {
+                  "$type": "color",
+                  "$value": "{basis.color.default.bg-active}"
+                }
+              },
+              "hover": {
+                "background-color": {
+                  "$type": "color",
+                  "$value": "{basis.color.default.bg-active}"
+                }
+              }
+            }
+          },
+          "paper": {
+            "background-color": {
+              "$type": "color",
+              "$value": "#ffffff"
+            }
+          }
+        }
+      }
+    }
+  }
+}

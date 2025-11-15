@@ -1,0 +1,40 @@
+{
+  "components/unordered-list": {
+    "utrecht": {
+      "unordered-list": {
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{basis.text.font-size-X.md}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{basis.text.line-height-X.md}"
+        },
+        "padding-inline-start": {
+          "$type": "dimension",
+          "$value": "{basis.space.inline.xl}"
+        },
+        "item": {
+          "margin-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.sm}"
+          },
+          "margin-block-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.sm}"
+          },
+          "padding-inline-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.inline.md}"
+          }
+        },
+        "marker": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.default.color-document}"
+          }
+        }
+      }
+    }
+  }
+}

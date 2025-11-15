@@ -1,0 +1,16 @@
+{
+  "components/form-field-label-suffix": {
+    "todo": {
+      "form-field-label-suffix": {
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.default.color-document}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{basis.text.font-weight.default}"
+        }
+      }
+    }
+  }
+}

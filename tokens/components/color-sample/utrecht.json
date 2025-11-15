@@ -1,0 +1,44 @@
+{
+  "components/color-sample/utrecht": {
+    "utrecht": {
+      "color-sample": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{nl.color-sample.background-color}"
+        },
+        "border-width": {
+          "$type": "dimension",
+          "$value": "{nl.color-sample.border-width}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{nl.color-sample.border-color}"
+        },
+        "border-radius": {
+          "$type": "dimension",
+          "$value": "{nl.color-sample.border-radius}"
+        },
+        "dark": {
+          "border-color": {
+            "$type": "color",
+            "$value": "{nl.color-sample.border-color}"
+          }
+        },
+        "light": {
+          "border-color": {
+            "$type": "color",
+            "$value": "{nl.color-sample.border-color}"
+          }
+        },
+        "block-size": {
+          "$type": "dimension",
+          "$value": "{nl.color-sample.block-size}"
+        },
+        "inline-size": {
+          "$type": "dimension",
+          "$value": "{nl.color-sample.inline-size}"
+        }
+      }
+    }
+  }
+}

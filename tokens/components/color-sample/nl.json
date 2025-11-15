@@ -1,0 +1,32 @@
+{
+  "components/color-sample/nl": {
+    "nl": {
+      "color-sample": {
+        "background-color": {
+          "$type": "color",
+          "$value": "#cccccc"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "#787878"
+        },
+        "border-radius": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "border-width": {
+          "$type": "dimension",
+          "$value": "{basis.border-width.sm}"
+        },
+        "block-size": {
+          "$type": "dimension",
+          "$value": "{basis.size.sm}"
+        },
+        "inline-size": {
+          "$type": "dimension",
+          "$value": "{basis.size.sm}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "components/mark/nl": {
+    "nl": {
+      "mark": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{basis.color.highlight-inverse.bg-default}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{basis.color.highlight-inverse.color-default}"
+        }
+      }
+    }
+  }
+}

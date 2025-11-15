@@ -1,0 +1,110 @@
+{
+  "components/side-navigation": {
+    "denhaag": {
+      "sidenav": {
+        "min-width": {
+          "$type": "dimension",
+          "$value": "240px"
+        },
+        "row-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.row.3xl}"
+        },
+        "item": {
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{basis.text.font-family.default}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{basis.text.font-size-X.md}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{basis.text.font-weight.default}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{basis.text.line-height-X.md}"
+          }
+        },
+        "link": {
+          "color": {
+            "$type": "color",
+            "$value": "{basis.color.action-2.color-default}"
+          },
+          "column-gap": {
+            "$type": "dimension",
+            "$value": "{basis.space.column.max.md}"
+          },
+          "padding-block-end": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.lg}"
+          },
+          "padding-block-start": {
+            "$type": "dimension",
+            "$value": "{basis.space.block.lg}"
+          },
+          "active": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.action-2.color-active}"
+            },
+            "font-weight": {
+              "$type": "fontWeights",
+              "$value": "{basis.text.font-weight.bold}"
+            }
+          },
+          "current": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.default.color-document}"
+            },
+            "font-weight": {
+              "$type": "fontWeights",
+              "$value": "{basis.text.font-weight.bold}"
+            }
+          },
+          "hover": {
+            "color": {
+              "$type": "color",
+              "$value": "{basis.color.action-2.color-hover}"
+            }
+          }
+        },
+        "list": {
+          "padding-block-end": {
+            "$type": "dimension",
+            "$value": "0px"
+          },
+          "padding-block-start": {
+            "$type": "dimension",
+            "$value": "0px"
+          },
+          "padding-inline-start": {
+            "$type": "dimension",
+            "$value": "0px"
+          }
+        }
+      }
+    },
+    "todo": {
+      "sidenav": {
+        "link": {
+          "hover": {
+            "text-decoration": {
+              "$type": "textDecoration",
+              "$value": "underline"
+            }
+          },
+          "icon": {
+            "size": {
+              "$type": "dimension",
+              "$value": "{basis.size.icon.md}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "components/link-list": {
+    "utrecht": {
+      "link-list": {
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{basis.text.font-weight.default}"
+        },
+        "row-gap": {
+          "$type": "dimension",
+          "$value": "{basis.space.row.md}"
+        },
+        "icon": {
+          "inset-block-start": {
+            "$type": "dimension",
+            "$value": "0px"
+          },
+          "size": {
+            "$type": "dimension",
+            "$value": "{basis.size.icon.md}"
+          }
+        },
+        "link": {
+          "column-gap": {
+            "$type": "dimension",
+            "$value": "{basis.space.text.xs}"
+          },
+          "text-decoration": {
+            "$type": "textDecoration",
+            "$value": "None"
+          }
+        }
+      }
+    },
+    "todo": {
+      "link-list": {
+        "link": {
+          "hover": {
+            "text-decoration": {
+              "$type": "textDecoration",
+              "$value": "underline"
+            }
+          }
+        }
+      }
+    }
+  }
+}
